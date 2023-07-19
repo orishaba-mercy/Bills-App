@@ -13,6 +13,12 @@
         android:theme="@style/Theme.BIllsAPP"
         tools:targetApi="31">
         <activity
+            android:name=".viewmodels.Home"
+            android:exported="false" />
+        <activity
+            android:name=".viewmodels.Hope"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
